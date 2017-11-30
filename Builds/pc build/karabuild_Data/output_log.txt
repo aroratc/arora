@@ -1,0 +1,296 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   23.21.13.8831
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\Vuforia.UnityExtensions.dll (this message is harmless)
+Loading C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\Vuforia.UnityExtensions.dll into Unity Child Domain
+- Completed reload, in  0.015 seconds
+Platform assembly: C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Dad\Documents\Unity Projects\HUNCH with Menu\Builds\pc build\karabuild_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on VuforiaAbstractBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+OnLevelWasLoaded was found on VuforiaBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+desktop: 1920x1080 60Hz; virtual: 3360x1080 at -1440,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.823420 ms
+Vuforia initialization successful
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 3f68 -> priority: 1 
+  Thread -> id: 3304 -> priority: 1 
+  Thread -> id: 3e3c -> priority: 1 
+  Thread -> id: 253c -> priority: 1 
+  Thread -> id: 1c5c -> priority: 1 
+  Thread -> id: 3ba8 -> priority: 1 
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.383455 ms
+Setting BehaviourComponentFactory
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 436.
+Total: 0.362682 ms (FindLiveObjects: 0.033016 ms CreateObjectMapping: 0.031278 ms MarkObjects: 0.256186 ms  DeleteObjects: 0.041208 ms)
+
+Could not initialize the tracker.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Dataset ObjectDatabase_OT could not be loaded and cannot be activated.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StartVuforia
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Creating a Mono Camera Configuration (Check for reflection)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trackable battery lost
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at objectAlert.OnTrackableStateChanged (Status previousStatus, Status newStatus) [0x00000] in <filename unknown>:0 
+  at Vuforia.TrackableBehaviour.RegisterTrackableEventHandler (ITrackableEventHandler trackableEventHandler) [0x00000] in <filename unknown>:0 
+  at objectAlert.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+StopVuforia
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trackable battery lost
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:SetActive (bool)
+  at objectAlert.OnTrackableStateChanged (Status previousStatus, Status newStatus) [0x00000] in <filename unknown>:0 
+  at Vuforia.TrackableBehaviour.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 5.587440 ms
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 0.398180 ms (FindLiveObjects: 0.020604 ms CreateObjectMapping: 0.012163 ms MarkObjects: 0.274059 ms  DeleteObjects: 0.091104 ms)
+
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.331651 ms
+Setting BehaviourComponentFactory
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 466.
+Total: 0.344560 ms (FindLiveObjects: 0.021100 ms CreateObjectMapping: 0.012660 ms MarkObjects: 0.272570 ms  DeleteObjects: 0.037484 ms)
+
+Could not initialize the tracker.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Dataset ObjectDatabase_OT could not be loaded and cannot be activated.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StartVuforia
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Creating a Mono Camera Configuration (Check for reflection)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trackable battery lost
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at objectAlert.OnTrackableStateChanged (Status previousStatus, Status newStatus) [0x00000] in <filename unknown>:0 
+  at Vuforia.TrackableBehaviour.RegisterTrackableEventHandler (ITrackableEventHandler trackableEventHandler) [0x00000] in <filename unknown>:0 
+  at objectAlert.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Trackable battery lost
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at objectAlert.OnTrackableStateChanged (Status previousStatus, Status newStatus) [0x00000] in <filename unknown>:0 
+  at Vuforia.TrackableBehaviour.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+StopVuforia
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 0.656601 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 0.461979 ms (FindLiveObjects: 0.032023 ms CreateObjectMapping: 0.031526 ms MarkObjects: 0.304345 ms  DeleteObjects: 0.093339 ms)
+
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.320480 ms
+Setting BehaviourComponentFactory
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 466.
+Total: 0.459496 ms (FindLiveObjects: 0.031526 ms CreateObjectMapping: 0.031278 ms MarkObjects: 0.359703 ms  DeleteObjects: 0.035746 ms)
+
+Could not initialize the tracker.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+SetHint
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Dataset ObjectDatabase_OT could not be loaded and cannot be activated.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+StartVuforia
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Creating a Mono Camera Configuration (Check for reflection)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Trackable battery lost
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at objectAlert.OnTrackableStateChanged (Status previousStatus, Status newStatus) [0x00000] in <filename unknown>:0 
+  at Vuforia.TrackableBehaviour.RegisterTrackableEventHandler (ITrackableEventHandler trackableEventHandler) [0x00000] in <filename unknown>:0 
+  at objectAlert.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Trackable battery lost
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at objectAlert.OnTrackableStateChanged (Status previousStatus, Status newStatus) [0x00000] in <filename unknown>:0 
+  at Vuforia.TrackableBehaviour.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+StopVuforia
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 0.690113 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 0.482583 ms (FindLiveObjects: 0.030037 ms CreateObjectMapping: 0.031278 ms MarkObjects: 0.328176 ms  DeleteObjects: 0.092594 ms)
+
