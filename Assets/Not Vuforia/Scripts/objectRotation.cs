@@ -8,8 +8,8 @@ public class objectRotation : MonoBehaviour {
 
     void OnMouseDrag()
       {
-          float rotx = Input.GetAxis("Mouse X") * speed * Mathf.Deg2Rad;
-          float roty = Input.GetAxis("Mouse Y") * speed * Mathf.Deg2Rad;
+          float rotx = Input.GetAxis("Mouse X") * rotSpeed * Mathf.Deg2Rad;
+          float roty = Input.GetAxis("Mouse Y") * rotSpeed * Mathf.Deg2Rad;
 
 
           transform.RotateAround(Vector3.up, -rotx);
