@@ -11,6 +11,9 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
     public GameObject searchModel;
     public GameObject na;
     public GameObject drill;
+    public GameObject omni;
+    public GameObject wheel;
+    public GameObject gear;
 
     void Start()
     {
@@ -31,20 +34,34 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
         newStatus == TrackableBehaviour.Status.TRACKED ||
         newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
-            // Play audio when target is found
             Debug.Log("object detected!");
-            drill.gameObject.SetActive(true);
             alertModel.gameObject.SetActive(true);
             searchModel.gameObject.SetActive(false);
             na.gameObject.SetActive(false);
+            if (mTrackableBehaviour.TrackableName == "battery")
+            {
+                drill.gameObject.SetActive(true);
+            }
+            if (mTrackableBehaviour.TrackableName == "omni")
+            {
+                omni.gameObject.SetActive(true);
+            }
+            if (mTrackableBehaviour.TrackableName == "Gear1" || mTrackableBehaviour.TrackableName == "Gear1Bottom")
+            {
+                omni.gameObject.SetActive(true);
+            }
+            if (mTrackableBehaviour.TrackableName == "hexwheel1")
+            {
+                omni.gameObject.SetActive(true);
+            }
         }
         else
         {
-            // Stop audio when target is lost
             drill.gameObject.SetActive(false);
             alertModel.gameObject.SetActive(false);
             searchModel.gameObject.SetActive(true);
             na.gameObject.SetActive(true);
+            omni.gameObject.SetActive(false);
         }
     }
 }

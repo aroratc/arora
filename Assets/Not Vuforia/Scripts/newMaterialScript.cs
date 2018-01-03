@@ -19,16 +19,17 @@ public class newMaterialScript : MonoBehaviour {
 	void Update () {
 		
 	}
-    void OnTouchDown()
-    {
-        Debug.Log("click");
-        rend.sharedMaterial = material[1];
-    }
+   // void OnTouchDown()
+   // {
+   //     Debug.Log("click");
+   //     rend.sharedMaterial = material[1];
+   // }
     void OnTouchUp()
     {
         SceneManager.LoadScene("objectMenu");
         rend.sharedMaterial = material[0];
     }
+    /*
     void OnTouchStay()
     {
         rend.sharedMaterial = material[1];
@@ -36,5 +37,10 @@ public class newMaterialScript : MonoBehaviour {
     void OnTouchExit()
     {
         rend.sharedMaterial = material[0];
+    }
+    */
+    void OnTouchMove()
+    {
+        rend.sharedMaterial = material[1];
     }
 }

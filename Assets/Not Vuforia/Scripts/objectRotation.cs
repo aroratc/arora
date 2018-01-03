@@ -33,8 +33,7 @@ public class objectRotation : MonoBehaviour {
     /*
     Quaternion relativeDifference = attachedWand.transform.rotation * Quaternion.Inverse(testController.transform.rotation);
              transform.rotation = relativeDifference * testObject.transform.rotation; 
-    USE SIMILAR METHOD TO VIVE CONTROLLERS
-    FIND X Y OF MOUSE AND COMPARE TO INITIAL X Y OF MOUSE, ADD TO ROTATION OF GAMEOBJECT
+
     */
 
     /*
@@ -50,4 +49,5 @@ public class objectRotation : MonoBehaviour {
         }
     */
 }
+
 
