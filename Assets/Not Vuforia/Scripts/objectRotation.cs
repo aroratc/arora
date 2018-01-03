@@ -1,10 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class objectRotation : MonoBehaviour {
+    public GameObject batteryRender; 
+    float speed = 5;
 
-    float speed = 300;
 
     /*
     void FixedUpdate()
@@ -16,14 +17,24 @@ public class objectRotation : MonoBehaviour {
     */
 
     void OnMouseDrag()
-      {
-          float rotx = Input.GetAxis("Mouse X") * speed * Mathf.Deg2Rad;
-          float roty = Input.GetAxis("Mouse Y") * speed * Mathf.Deg2Rad;
+    {
 
 
-          transform.Rotate(Vector3.up, -rotx);
-          transform.Rotate(Vector3.right, roty);
-      }
+        float rotx = Input.GetAxis("Mouse X") * speed * Mathf.Deg2Rad;
+        float roty = Input.GetAxis("Mouse Y") * speed * Mathf.Deg2Rad;
+
+
+        batteryRender.transform.RotateAround(Vector3.up, -rotx);
+        batteryRender.transform.RotateAround(Vector3.right, roty);
+    }
+
+
+
+    /*
+    Quaternion relativeDifference = attachedWand.transform.rotation * Quaternion.Inverse(testController.transform.rotation);
+             transform.rotation = relativeDifference * testObject.transform.rotation; 
+
+    */
 
     /*
     void Update()
@@ -37,6 +48,6 @@ public class objectRotation : MonoBehaviour {
                 }
         }
     */
-    }
+}
 
 

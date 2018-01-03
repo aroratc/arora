@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
   <TargetSet version="5.0" toolVersion="4.2.0">
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-12-14 10:24:56" name="Gear1Bottom" targetId="75b057cbfdb44c768fe5eac9f2bb9e3d" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-12-14 10:19:31" name="Gear1" targetId="d178b88d9b47496c863b80b029b8aabc" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-12-14 10:01:42" name="hexwheel1" targetId="10c84011827b4713b92777fceb4b236c" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-12-14 10:04:30" name="omni" targetId="994bdb877a0a4b0ca15a62305763998c" version="2.0" />
     <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-25 12:34:31" name="battery" targetId="1111b5d6c73b465ab6a78fd55227568e" version="2.0" />
   </TargetSet>
 </QCARInfo>
