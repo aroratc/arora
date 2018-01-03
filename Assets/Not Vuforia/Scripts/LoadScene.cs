@@ -5,11 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour {
 
+    public GameObject battery; 
     public GameObject logo;
     public GameObject menu1;
     public GameObject menu2;
 
+    private Quaternion qstart;
 	// Use this for initialization
+    void Start()
+    {
+        qstart = battery.transform.rotation;
+    }
+
 	public void loadLevel () {
         Debug.Log("button pressed.");
         SceneManager.LoadScene("testScene");
@@ -26,6 +33,11 @@ public class LoadScene : MonoBehaviour {
         logo.SetActive(false);
         menu2.SetActive(true);
     }
-        
+
+    public void reset()
+    {
+        Debug.Log("hey there");
+        battery.transform.rotation = qstart;
+    }
 }
 
