@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
@@ -42,26 +42,32 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
             {
                 drill.gameObject.SetActive(true);
             }
-            if (mTrackableBehaviour.TrackableName == "omni")
+            else if (mTrackableBehaviour.TrackableName == "omni")
             {
                 omni.gameObject.SetActive(true);
+                
             }
-            if (mTrackableBehaviour.TrackableName == "Gear1" || mTrackableBehaviour.TrackableName == "Gear1Bottom")
+            else if (mTrackableBehaviour.TrackableName == "Gear1" || mTrackableBehaviour.TrackableName == "Gear1Bottom")
             {
-                omni.gameObject.SetActive(true);
+                gear.gameObject.SetActive(true);
+               
             }
-            if (mTrackableBehaviour.TrackableName == "hexwheel1")
+            else if (mTrackableBehaviour.TrackableName == "hexwheel1")
             {
-                omni.gameObject.SetActive(true);
+                wheel.gameObject.SetActive(true);
+                
             }
         }
         else
         {
-            drill.gameObject.SetActive(false);
+            
             alertModel.gameObject.SetActive(false);
             searchModel.gameObject.SetActive(true);
             na.gameObject.SetActive(true);
+            drill.gameObject.SetActive(false);
             omni.gameObject.SetActive(false);
+            gear.gameObject.SetActive(false);
+            wheel.gameObject.SetActive(false);
         }
     }
 }
