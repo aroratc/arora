@@ -7,6 +7,7 @@ public class newMaterialScript : MonoBehaviour {
 
     public Material[] material;
     Renderer rend;
+    private GameObject store; 
 
 	// Use this for initialization
 	void Start () {
@@ -26,8 +27,10 @@ public class newMaterialScript : MonoBehaviour {
    // }
     void OnTouchUp()
     {
-        SceneManager.LoadScene("objectMenu");
         rend.sharedMaterial = material[0];
+        store = GameObject.Find("scriptStore");
+        store.GetComponent<dontDestroy>().setObj(this.transform.parent.name);
+        SceneManager.LoadScene("objectMenu");
     }
     /*
     void OnTouchStay()
