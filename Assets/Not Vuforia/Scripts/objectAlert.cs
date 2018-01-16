@@ -45,22 +45,22 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
             else if (mTrackableBehaviour.TrackableName == "omni")
             {
                 omni.gameObject.SetActive(true);
-                
+
             }
             else if (mTrackableBehaviour.TrackableName == "Gear1" || mTrackableBehaviour.TrackableName == "Gear1Bottom")
             {
                 gear.gameObject.SetActive(true);
-               
+
             }
             else if (mTrackableBehaviour.TrackableName == "hexwheel1")
             {
                 wheel.gameObject.SetActive(true);
-                
+
             }
         }
         else
         {
-            
+
             alertModel.gameObject.SetActive(false);
             searchModel.gameObject.SetActive(true);
             na.gameObject.SetActive(true);
