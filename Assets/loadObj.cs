@@ -14,7 +14,7 @@ public class loadObj : MonoBehaviour {
 	void Start () {
         empty = GameObject.Find("scriptStore");
         objName = empty.GetComponent<dontDestroy>().getObj();
-        if (objName == "omni")
+        if (objName == "omni3")
         {
             omni.SetActive(true);
         }

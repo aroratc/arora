@@ -42,7 +42,7 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
             {
                 drill.gameObject.SetActive(true);
             }
-            else if (mTrackableBehaviour.TrackableName == "omni")
+            else if (mTrackableBehaviour.TrackableName == "omni3")
             {
                 omni.gameObject.SetActive(true);
 
