@@ -148,7 +148,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ShowSliderValue
-b3f876c38fe2deda3030a81c26873066 Assembly-CSharp.dll:.objectAlert
+22db773d6ce5ee6b23cfb5a17f48da83 Assembly-CSharp.dll:.objectAlert
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.HideExcessAreaBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.fixRend
 387ef655a40a5a09b4b289e4961f5583 Assembly-CSharp.dll:Vuforia.CylinderTargetBehaviour
@@ -189,7 +189,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 4d4f5bcf3e80c6a63d5fa1d510b8f23f Assembly-CSharp.dll:.LoadScene
-8b3df5c347e570f30bd083ac6b3733af Assembly-CSharp.dll:.uiSetup
+1c60431648852d525db3c24d4f86f658 Assembly-CSharp.dll:.uiSetup
 cb0b8d20035db5768c1a46ecb0d84d55 Assembly-CSharp.dll:.basicInput
 69d7d01d14b2cb1bf7ea22ff94f3abfc Assembly-CSharp.dll:Vuforia.DefaultSmartTerrainEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocusScript
