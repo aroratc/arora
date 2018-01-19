@@ -42,7 +42,7 @@ public class newMaterialScript : MonoBehaviour {
         rend.sharedMaterial = material[0];
     }
     */
-    void OnTouchMove()
+    void OnTouchHold()
     {
         rend.sharedMaterial = material[1];
     }

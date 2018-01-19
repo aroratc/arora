@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
@@ -14,6 +14,8 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
     public GameObject omni;
     public GameObject wheel;
     public GameObject gear;
+    public GameObject thing;
+    public GameObject gearbox; 
 
     void Start()
     {
@@ -56,6 +58,14 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
             {
                 wheel.gameObject.SetActive(true);
 
+            }
+            else if (mTrackableBehaviour.TrackableName == "thing")
+            {
+                thing.gameObject.SetActive(true);
+            }
+            else if (mTrackableBehaviour.TrackableName == "gearbox")
+            {
+                gearbox.gameObject.SetActive(true);
             }
         }
         else
