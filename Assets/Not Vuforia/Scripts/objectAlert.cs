@@ -12,7 +12,14 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
     public GameObject na;
     public GameObject drill;
     public GameObject omni;
+<<<<<<< HEAD
     public GameObject instructions;
+=======
+    public GameObject wheel;
+    public GameObject gear;
+    public GameObject thing;
+    public GameObject gearbox; 
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
 
 
 
@@ -54,11 +61,35 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
                 rendBattery.enabled = true;
             }
             else if (mTrackableBehaviour.TrackableName == "omni3")
+<<<<<<< HEAD
             {
                 omni.gameObject.SetActive(true);
                 rendOmni.enabled = true;
                 rendBattery.enabled = false;
 
+=======
+            {
+                omni.gameObject.SetActive(true);
+
+            }
+            else if (mTrackableBehaviour.TrackableName == "Gear1" || mTrackableBehaviour.TrackableName == "Gear1Bottom")
+            {
+                gear.gameObject.SetActive(true);
+
+            }
+            else if (mTrackableBehaviour.TrackableName == "hexwheel1")
+            {
+                wheel.gameObject.SetActive(true);
+
+            }
+            else if (mTrackableBehaviour.TrackableName == "thing")
+            {
+                thing.gameObject.SetActive(true);
+            }
+            else if (mTrackableBehaviour.TrackableName == "gearbox")
+            {
+                gearbox.gameObject.SetActive(true);
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
             }
         }
         else
@@ -69,10 +100,15 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
             na.gameObject.SetActive(true);
             drill.gameObject.SetActive(false);
             omni.gameObject.SetActive(false);
+<<<<<<< HEAD
             instructions.gameObject.SetActive(false);
             rendBattery.enabled = false;
             rendOmni.enabled = false;
 
+=======
+            gear.gameObject.SetActive(false);
+            wheel.gameObject.SetActive(false);
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
         }
     }
 }

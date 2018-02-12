@@ -1,7 +1,11 @@
 Android
 SceneListBegin?
 Assets/Not Vuforia/Scenes/mainMenu.unity
+<<<<<<< HEAD
 Assets/Not Vuforia/Scenes/newDetectionScene.unity
+=======
+Assets/Not Vuforia/Scenes/testScene.unity
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
 Assets/Not Vuforia/Scenes/objectMenu.unity
 SceneListEnd?
 268ef825502a475f763a8f3739ab652c Assembly-CSharp.dll:.VRIntegrationHelper
@@ -20,7 +24,10 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 a9ceaad7d51aada88335b5bf9c0e71a4 Assembly-CSharp.dll:Vuforia.ReconstructionBehaviour
 0bd808ce1ffd1b45a39b2496c65c8f23 Assembly-CSharp.dll:.PanelManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.TurnOffBehaviour
+<<<<<<< HEAD
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.mainTutorialScript
+=======
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
 c39bc94889c95daf120357b018c5e920 Assembly-CSharp.dll:.objectRotation
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.GLErrorHandler
 7d0aa0f64a823db9982e4fed92870a4c Assembly-CSharp.dll:.ResizePanel
@@ -121,7 +128,11 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 0268caddfd80dcc5e7d4a0c4ba3adf40 Assembly-CSharp.dll:Vuforia.BackgroundPlaneBehaviour
 24fc33d2fc5ebf1966ff68a1f9a5217e Assembly-CSharp.dll:Vuforia.VuMarkBehaviour
+<<<<<<< HEAD
 c142b1fa41a743da472737bbaa2c8c5e Assembly-CSharp.dll:.restartRot
+=======
+77464dcd3aa1567c92f367f47b49dc0a Assembly-CSharp.dll:.restartRot
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.DefaultInitializationErrorHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ActiveStateToggler
@@ -149,7 +160,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ShowSliderValue
+<<<<<<< HEAD
 3abacb406532f7cc6469050af432511f Assembly-CSharp.dll:.objectAlert
+=======
+22db773d6ce5ee6b23cfb5a17f48da83 Assembly-CSharp.dll:.objectAlert
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.HideExcessAreaBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.fixRend
 387ef655a40a5a09b4b289e4961f5583 Assembly-CSharp.dll:Vuforia.CylinderTargetBehaviour
@@ -183,7 +198,10 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Vuforia.VideoBackgroundBehaviour
 15bea26698002c6c4a3087131232ce5c Assembly-CSharp.dll:Vuforia.WordBehaviour
 3ad83d9b16897b0fec4f8b42b7498cdc Assembly-CSharp.dll:Vuforia.ObjectTargetBehaviour
+<<<<<<< HEAD
 e2b16f7e059a6e8275c30edf24ee395d Assembly-CSharp.dll:.transparentScript
+=======
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -195,7 +213,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 cb0b8d20035db5768c1a46ecb0d84d55 Assembly-CSharp.dll:.basicInput
 69d7d01d14b2cb1bf7ea22ff94f3abfc Assembly-CSharp.dll:Vuforia.DefaultSmartTerrainEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocusScript
+<<<<<<< HEAD
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.newMaterialScript
+=======
+8f64939ddf800601d505984940fdb489 Assembly-CSharp.dll:.newMaterialScript
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
 5465eae51985f0cb194548215d2133ec Assembly-CSharp.dll:.ScrollDetailTexture
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.dontDestroy
 d2a2bd333db22f480a8589e167314ecc Assembly-CSharp.dll:Vuforia.UserDefinedTargetBuildingBehaviour

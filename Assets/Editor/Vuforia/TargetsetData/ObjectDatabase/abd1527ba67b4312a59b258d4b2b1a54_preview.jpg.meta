@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 45e3ae91271b4887b56bff6698c08ba2
 TextureImporter:
   fileIDToRecycleName:
@@ -74,3 +75,6 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+guid: 417cfb01061e42ed8e9ec0f3165cf097
+>>>>>>> 5d889464025a2203164fd896790a380866f94d00
