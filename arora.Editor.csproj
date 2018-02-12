@@ -304,6 +304,10 @@
       <Project>{06B9E40B-4DD5-683C-82AF-9A52DDCA8921}</Project>
       <Name>arora</Name>
     </ProjectReference>
+    <ProjectReference Include="arora.Editor.Plugins.csproj">
+      <Project>{04E85BA9-929A-4647-CCD6-0CEB2E7A93B7}</Project>
+      <Name>arora.Editor.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="arora.Editor.Plugins.unityproj">
       <Project>{04E85BA9-929A-4647-CCD6-0CEB2E7A93B7}</Project>
       <Name>arora.Editor.Plugins</Name>

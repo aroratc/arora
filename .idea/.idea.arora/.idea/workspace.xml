@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e280c5a0-e7de-4663-a4ed-47ccced9766e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/arora/v15/.suo" afterPath="$PROJECT_DIR$/.vs/arora/v15/.suo" />
+      <change beforePath="$PROJECT_DIR$/.vs/arora/v15/Server/sqlite3/storage.ide" afterPath="$PROJECT_DIR$/.vs/arora/v15/Server/sqlite3/storage.ide" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/10c84011827b4713b92777fceb4b236c_preview.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/10c84011827b4713b92777fceb4b236c_preview.jpg.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/1111b5d6c73b465ab6a78fd55227568e_preview.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/1111b5d6c73b465ab6a78fd55227568e_preview.jpg.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/75b057cbfdb44c768fe5eac9f2bb9e3d_preview.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/75b057cbfdb44c768fe5eac9f2bb9e3d_preview.jpg.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/994bdb877a0a4b0ca15a62305763998c_preview.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/994bdb877a0a4b0ca15a62305763998c_preview.jpg.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/d178b88d9b47496c863b80b029b8aabc_preview.jpg.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase/d178b88d9b47496c863b80b029b8aabc_preview.jpg.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase_info.xml" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase_info.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase_info.xml.meta" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/TargetsetData/ObjectDatabase_info.xml.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Not Vuforia/Assets/Drill Battery Model 1.blend.meta" afterPath="$PROJECT_DIR$/Assets/Not Vuforia/Assets/Drill Battery Model 1.blend.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Not Vuforia/Assets/yellowbrick.blend" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Not Vuforia/Assets/yellowbrick.blend.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Not Vuforia/Scenes/objectMenu.unity" afterPath="$PROJECT_DIR$/Assets/Not Vuforia/Scenes/objectMenu.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Not Vuforia/Scenes/testScene.unity" afterPath="$PROJECT_DIR$/Assets/Not Vuforia/Scenes/testScene.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Not Vuforia/Scripts/fixRend.cs" afterPath="$PROJECT_DIR$/Assets/Not Vuforia/Scripts/fixRend.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Not Vuforia/Scripts/newMaterialScript.cs" afterPath="$PROJECT_DIR$/Assets/Not Vuforia/Scripts/newMaterialScript.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Not Vuforia/Scripts/objectAlert.cs" afterPath="$PROJECT_DIR$/Assets/Not Vuforia/Scripts/objectAlert.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/ObjectDatabase_OT.dat" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/ObjectDatabase_OT.dat" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/ObjectDatabase_OT.dat.meta" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/ObjectDatabase_OT.dat.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/ObjectDatabase_OT.xml" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/ObjectDatabase_OT.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/ObjectDatabase_OT.xml.meta" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/ObjectDatabase_OT.xml.meta" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
+      <change beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" />
+      <change beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll.mdb" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/14/145bfd2a3024485590b62395e27acc12" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/14/145bfd2a3024485590b62395e27acc12.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/16/167c537d0fb153e4b9f35ac7e54db644" afterPath="$PROJECT_DIR$/Library/metadata/16/167c537d0fb153e4b9f35ac7e54db644" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/38/38db31787a774217a1a2ca6f9f5323cb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/38/38db31787a774217a1a2ca6f9f5323cb.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3d/3d1b00ce38033d64889298712d2562ba" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/3d/3d1b00ce38033d64889298712d2562ba.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4e/4e8f96b805774794a18b40d653f04900" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/4e/4e8f96b805774794a18b40d653f04900.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/74/74bbb456df984a7fbe90165e3adb461d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/74/74bbb456df984a7fbe90165e3adb461d.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/85/85f92c142c4747d188034380e489ace1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/85/85f92c142c4747d188034380e489ace1.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/9b/9b94962a6ec144858e98e605a86855d2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/9b/9b94962a6ec144858e98e605a86855d2.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a0/a0e42c5acd2b4806acd19330d32b622d" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/a0/a0e42c5acd2b4806acd19330d32b622d.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ae/ae2fffc6b1762434c9cab6ebb99d1c80" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/ae/ae2fffc6b1762434c9cab6ebb99d1c80.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/c9/c98bf8e7459b59c48a170a13a786e33a" afterPath="$PROJECT_DIR$/Library/metadata/c9/c98bf8e7459b59c48a170a13a786e33a" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d8/d82d2f98e00997d4f9bced96d88ccced" afterPath="$PROJECT_DIR$/Library/metadata/d8/d82d2f98e00997d4f9bced96d88ccced" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fe/febbeaf9a1de4a3590b6df2fbfdd7627" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fe/febbeaf9a1de4a3590b6df2fbfdd7627.info" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe10.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe11.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe11.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe4.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe5.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe6.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe7.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe8.log" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe9.log" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/arora.csproj" afterPath="$PROJECT_DIR$/arora.csproj" />
+      <change beforePath="$PROJECT_DIR$/arora.sln" afterPath="$PROJECT_DIR$/arora.sln" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="LoadScene.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Not Vuforia/Scripts/LoadScene.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+              <folding>
+                <marker date="1513224932752" expanded="true" signature="6:113" ph="..." />
+                <marker date="1513224932752" expanded="true" signature="154:935" ph="{...}" />
+                <marker date="1513224932752" expanded="true" signature="355:412" ph="{...}" />
+                <marker date="1513224932752" expanded="true" signature="440:527" ph="{...}" />
+                <marker date="1513224932752" expanded="true" signature="554:648" ph="{...}" />
+                <marker date="1513224932752" expanded="true" signature="675:819" ph="{...}" />
+                <marker date="1513224932752" expanded="true" signature="844:933" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loadObj.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/loadObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1516254808090" expanded="false" signature="6:78" ph="..." />
+                <marker date="1516254808090" expanded="true" signature="117:953" ph="{...}" />
+                <marker date="1516254808090" expanded="true" signature="321:889" ph="{...}" />
+                <marker date="1516254808090" expanded="true" signature="464:518" ph="{...}" />
+                <marker date="1516254808090" expanded="true" signature="559:614" ph="{...}" />
+                <marker date="1516254808090" expanded="true" signature="650:787" ph="{...}" />
+                <marker date="1516254808090" expanded="true" signature="673:777" ph="/* gear.SetActive(true); ... */" />
+                <marker date="1516254808090" expanded="true" signature="826:883" ph="{...}" />
+                <marker date="1516254808090" expanded="true" signature="944:951" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dontDestroy.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Not Vuforia/Scripts/dontDestroy.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <marker date="1516161766846" expanded="false" signature="6:78" ph="..." />
+                <marker date="1516161766846" expanded="true" signature="121:380" ph="{...}" />
+                <marker date="1516161766846" expanded="true" signature="189:228" ph="{...}" />
+                <marker date="1516161766846" expanded="true" signature="265:304" ph="{...}" />
+                <marker date="1516161766846" expanded="true" signature="321:378" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/loadObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Not Vuforia/Scripts/LoadScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Not Vuforia/Scripts/dontDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="447" />
+    <option name="y" value="373" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="arora (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="arora (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="arora (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="arora (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Not Vuforia" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="arora (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Not Vuforia" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="arora (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="StreamingAssets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="arora (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="StreamingAssets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Vuforia" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="arora (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e280c5a0-e7de-4663-a4ed-47ccced9766e" name="Default" comment="" />
+      <created>1517162838269</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517162838269</updated>
+      <workItem from="1517162840733" duration="149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="149000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="447" y="373" width="1400" height="1000" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Not Vuforia/Scripts/LoadScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <marker date="1513224932752" expanded="true" signature="6:113" ph="..." />
+            <marker date="1513224932752" expanded="true" signature="154:935" ph="{...}" />
+            <marker date="1513224932752" expanded="true" signature="355:412" ph="{...}" />
+            <marker date="1513224932752" expanded="true" signature="440:527" ph="{...}" />
+            <marker date="1513224932752" expanded="true" signature="554:648" ph="{...}" />
+            <marker date="1513224932752" expanded="true" signature="675:819" ph="{...}" />
+            <marker date="1513224932752" expanded="true" signature="844:933" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/loadObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516254808090" expanded="false" signature="6:78" ph="..." />
+            <marker date="1516254808090" expanded="true" signature="117:953" ph="{...}" />
+            <marker date="1516254808090" expanded="true" signature="321:889" ph="{...}" />
+            <marker date="1516254808090" expanded="true" signature="464:518" ph="{...}" />
+            <marker date="1516254808090" expanded="true" signature="559:614" ph="{...}" />
+            <marker date="1516254808090" expanded="true" signature="650:787" ph="{...}" />
+            <marker date="1516254808090" expanded="true" signature="673:777" ph="/* gear.SetActive(true); ... */" />
+            <marker date="1516254808090" expanded="true" signature="826:883" ph="{...}" />
+            <marker date="1516254808090" expanded="true" signature="944:951" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Not Vuforia/Scripts/dontDestroy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1516161766846" expanded="false" signature="6:78" ph="..." />
+            <marker date="1516161766846" expanded="true" signature="121:380" ph="{...}" />
+            <marker date="1516161766846" expanded="true" signature="189:228" ph="{...}" />
+            <marker date="1516161766846" expanded="true" signature="265:304" ph="{...}" />
+            <marker date="1516161766846" expanded="true" signature="321:378" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -19,7 +19,7 @@ public class LoadScene : MonoBehaviour {
 
 	public void loadLevel () {
         Debug.Log("button pressed.");
-        SceneManager.LoadScene("testScene");
+        SceneManager.LoadScene("newDetectionScene");
 	}
     public void loadMenu()
     {
