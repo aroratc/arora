@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
   <Tracking>
+    <ObjectTarget name="tree" />
+    <ObjectTarget name="omni3" />
+    <ObjectTarget name="gearbox" />
+    <ObjectTarget name="thing" />
+    <ObjectTarget name="omni2" />
     <ObjectTarget name="Gear1Bottom" />
     <ObjectTarget name="Gear1" />
     <ObjectTarget name="hexwheel1" />

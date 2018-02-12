@@ -12,11 +12,19 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
     public GameObject na;
     public GameObject drill;
     public GameObject omni;
-    public GameObject wheel;
-    public GameObject gear;
+    public GameObject instructions;
 
+
+
+    public GameObject omniObject;
+    public GameObject batteryObject;
+    Renderer rendOmni;
+    Renderer rendBattery; 
     void Start()
     {
+        rendOmni = omniObject.GetComponent<Renderer>();
+        rendBattery = batteryObject.GetComponent<Renderer>();
+        instructions.gameObject.SetActive(false);
         alertModel.gameObject.SetActive(false);
         searchModel.gameObject.SetActive(true);
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
@@ -38,30 +46,33 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
             alertModel.gameObject.SetActive(true);
             searchModel.gameObject.SetActive(false);
             na.gameObject.SetActive(false);
+            instructions.gameObject.SetActive(true);
             if (mTrackableBehaviour.TrackableName == "battery")
             {
                 drill.gameObject.SetActive(true);
+                rendOmni.enabled = false;
+                rendBattery.enabled = true;
             }
-            if (mTrackableBehaviour.TrackableName == "omni")
+            else if (mTrackableBehaviour.TrackableName == "omni3")
             {
                 omni.gameObject.SetActive(true);
-            }
-            if (mTrackableBehaviour.TrackableName == "Gear1" || mTrackableBehaviour.TrackableName == "Gear1Bottom")
-            {
-                omni.gameObject.SetActive(true);
-            }
-            if (mTrackableBehaviour.TrackableName == "hexwheel1")
-            {
-                omni.gameObject.SetActive(true);
+                rendOmni.enabled = true;
+                rendBattery.enabled = false;
+
             }
         }
         else
         {
-            drill.gameObject.SetActive(false);
+
             alertModel.gameObject.SetActive(false);
             searchModel.gameObject.SetActive(true);
             na.gameObject.SetActive(true);
+            drill.gameObject.SetActive(false);
             omni.gameObject.SetActive(false);
+            instructions.gameObject.SetActive(false);
+            rendBattery.enabled = false;
+            rendOmni.enabled = false;
+
         }
     }
 }

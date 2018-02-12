@@ -302,14 +302,21 @@
   <ItemGroup>
     <Compile Include="Assets\Not Vuforia\Scripts\basicInput.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\basicRotate.cs" />
+    <Compile Include="Assets\Not Vuforia\Scripts\CameraFocusScript.cs" />
+    <Compile Include="Assets\Not Vuforia\Scripts\dontDestroy.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\fixRend.cs" />
+    <Compile Include="Assets\Not Vuforia\Scripts\loadObj.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\Not Vuforia\Scripts\mainTutorialScript.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\newMaterialScript.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\objectAlert.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\objectRotation.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\restartRot.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\rotateWithcam.cs" />
     <Compile Include="Assets\Not Vuforia\Scripts\testScript.cs" />
+    <Compile Include="Assets\Not Vuforia\Scripts\transparentScript.cs" />
+    <Compile Include="Assets\Not Vuforia\Scripts\uiSetup.cs" />
+    <Compile Include="Assets\Not Vuforia\Scripts\uiSetupImport.cs" />
     <Compile Include="Assets\Not Vuforia\UI Sample\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Not Vuforia\UI Sample\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Not Vuforia\UI Sample\Scripts\ChangeColor.cs" />

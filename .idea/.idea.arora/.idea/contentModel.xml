@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\mike\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_arora.-1019677315.00" t="ExcludeRecursive" />
+    <e p="D:\SSD\documents\Unity Projects\arora" t="IncludeRecursive">
+      <e p="arora.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="Vuforia" t="Include">
+            <e p="TargetsetData" t="Include">
+              <e p="ObjectDatabase_info.xml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="license_3rdpartynotice.txt" t="Include" />
+        <e p="link.xml" t="Include" />
+        <e p="loadObj.cs" t="Include" />
+        <e p="Not Vuforia" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="basicInput.cs" t="Include" />
+            <e p="basicRotate.cs" t="Include" />
+            <e p="CameraFocusScript.cs" t="Include" />
+            <e p="dontDestroy.cs" t="Include" />
+            <e p="fixRend.cs" t="Include" />
+            <e p="LoadScene.cs" t="Include" />
+            <e p="newMaterialScript.cs" t="Include" />
+            <e p="objectAlert.cs" t="Include" />
+            <e p="objectRotation.cs" t="Include" />
+            <e p="restartRot.cs" t="Include" />
+            <e p="rotateWithcam.cs" t="Include" />
+            <e p="testScript.cs" t="Include" />
+            <e p="uiSetup.cs" t="Include" />
+            <e p="uiSetupImport.cs" t="Include" />
+          </e>
+          <e p="UI Sample" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="Jupiter" t="Include">
+                <e p="LICENSE.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Materials" t="Include">
+              <e p="UI-Default-No-Alpha.shader" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="ActiveStateToggler.cs" t="Include" />
+              <e p="ApplicationManager.cs" t="Include" />
+              <e p="ChangeColor.cs" t="Include" />
+              <e p="DragMe.cs" t="Include" />
+              <e p="DragPanel.cs" t="Include" />
+              <e p="DropMe.cs" t="Include" />
+              <e p="PanelManager.cs" t="Include" />
+              <e p="ResizePanel.cs" t="Include" />
+              <e p="ScrollDetailTexture.cs" t="Include" />
+              <e p="ShowSliderValue.cs" t="Include" />
+              <e p="TiltWindow.cs" t="Include" />
+            </e>
+            <e p="Textures and Sprites" t="Include">
+              <e p="SF UI" t="Include">
+                <e p="Background" t="Include">
+                  <e p="LICENSE.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="readme_SDK.txt" t="Include" />
+        <e p="StreamingAssets" t="Include">
+          <e p="Vuforia" t="Include">
+            <e p="ObjectDatabase_OT.xml" t="Include" />
+            <e p="SchoolDatabase.xml" t="Include" />
+          </e>
+        </e>
+        <e p="Vuforia" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ComponentFactoryStarter" t="Include">
+                <e p="ComponentFactoryStarter.cs" t="Include" />
+              </e>
+              <e p="ExtensionImport.cs" t="Include" />
+              <e p="PostProcessBuildPlayer.cs" t="Include" />
+              <e p="Unzipper" t="Include">
+                <e p="SharpZipLibUnzipper.cs" t="Include" />
+              </e>
+              <e p="VuforiaConfigurationEditor.cs" t="Include" />
+            </e>
+            <e p="WebcamProfiles" t="Include">
+              <e p="profiles.xml" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="BackgroundPlaneBehaviour.cs" t="Include" />
+            <e p="CloudRecoBehaviour.cs" t="Include" />
+            <e p="CylinderTargetBehaviour.cs" t="Include" />
+            <e p="DefaultInitializationErrorHandler.cs" t="Include" />
+            <e p="DefaultSmartTerrainEventHandler.cs" t="Include" />
+            <e p="DefaultTrackableEventHandler.cs" t="Include" />
+            <e p="GLErrorHandler.cs" t="Include" />
+            <e p="HideExcessAreaBehaviour.cs" t="Include" />
+            <e p="ImageTargetBehaviour.cs" t="Include" />
+            <e p="Internal" t="Include">
+              <e p="AndroidUnityPlayer.cs" t="Include" />
+              <e p="ComponentFactoryStarterBehaviour.cs" t="Include" />
+              <e p="IOSUnityPlayer.cs" t="Include" />
+              <e p="VuforiaBehaviourComponentFactory.cs" t="Include" />
+              <e p="WSAUnityPlayer.cs" t="Include" />
+            </e>
+            <e p="MaskOutBehaviour.cs" t="Include" />
+            <e p="MultiTargetBehaviour.cs" t="Include" />
+            <e p="ObjectTargetBehaviour.cs" t="Include" />
+            <e p="PropBehaviour.cs" t="Include" />
+            <e p="ReconstructionBehaviour.cs" t="Include" />
+            <e p="ReconstructionFromTargetBehaviour.cs" t="Include" />
+            <e p="SurfaceBehaviour.cs" t="Include" />
+            <e p="TextRecoBehaviour.cs" t="Include" />
+            <e p="TurnOffBehaviour.cs" t="Include" />
+            <e p="TurnOffWordBehaviour.cs" t="Include" />
+            <e p="UserDefinedTargetBuildingBehaviour.cs" t="Include" />
+            <e p="Utilities" t="Include">
+              <e p="VRIntegrationHelper.cs" t="Include" />
+            </e>
+            <e p="VideoBackgroundBehaviour.cs" t="Include" />
+            <e p="VirtualButtonBehaviour.cs" t="Include" />
+            <e p="VuforiaBehaviour.cs" t="Include" />
+            <e p="VuforiaConfiguration.cs" t="Include" />
+            <e p="VuforiaRuntimeInitialization.cs" t="Include" />
+            <e p="VuMarkBehaviour.cs" t="Include" />
+            <e p="WireframeBehaviour.cs" t="Include" />
+            <e p="WireframeTrackableEventHandler.cs" t="Include" />
+            <e p="WordBehaviour.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="BrightTexture.shader" t="Include" />
+            <e p="ClippingMask.shader" t="Include" />
+            <e p="ColoredLines.shader" t="Include" />
+            <e p="DepthMask.shader" t="Include" />
+            <e p="RenderVideoBackground.shader" t="Include" />
+            <e p="Text3D.shader" t="Include" />
+            <e p="VertexLitWithZ.shader" t="Include" />
+            <e p="VideoBackground.shader" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
