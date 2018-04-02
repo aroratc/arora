@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class transparentScript : MonoBehaviour {
 
@@ -74,6 +75,10 @@ public class transparentScript : MonoBehaviour {
             BackButton.SetActive(true);
             InfoPanel.SetActive(true);
             Scene8.SetActive(true);
+        }
+        else if (step == 9)
+        {
+            SceneManager.LoadScene("objectTutorial");
         }
     }
 

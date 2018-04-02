@@ -34,6 +34,11 @@ public class LoadScene : MonoBehaviour {
         menu2.SetActive(true);
     }
 
+    public void loadTutorial()
+    {
+        SceneManager.LoadScene("tutorial");
+    }
+
     public void reset()
     {
         Debug.Log("hey there");

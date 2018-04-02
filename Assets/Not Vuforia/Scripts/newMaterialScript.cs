@@ -25,11 +25,7 @@ public class newMaterialScript : MonoBehaviour {
    // }
     void OnTouchUp()
     {
-<<<<<<< HEAD
      
-=======
-        rend.sharedMaterial = material[0];
->>>>>>> 5d889464025a2203164fd896790a380866f94d00
         store = GameObject.Find("scriptStore");
         store.GetComponent<dontDestroy>().setObj(this.transform.parent.name);
         SceneManager.LoadScene("objectMenu");

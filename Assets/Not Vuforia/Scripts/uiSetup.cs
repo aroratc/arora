@@ -114,11 +114,7 @@ public class uiSetup : MonoBehaviour {
             if (currentZoom == true)
             {
                 setScale();
-<<<<<<< HEAD
                 //infopanel.SetActive(false);
-=======
-                infopanel.SetActive(false);
->>>>>>> 5d889464025a2203164fd896790a380866f94d00
             }
             if (currentZoom == false)
             {
@@ -142,11 +138,7 @@ public class uiSetup : MonoBehaviour {
     }
 
     public void onDescPress() {
-<<<<<<< HEAD
         if (currentZoom == false || currentZoom == true)
-=======
-        if (currentZoom == false)
->>>>>>> 5d889464025a2203164fd896790a380866f94d00
         {
             toggle(infopanel);
             if (objName == "battery")
