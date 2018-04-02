@@ -1,2 +1,0 @@
-D:\SSD\documents\Unity Projects\arora\Temp\UnityVS_obj\Debug\arora.Editor.csprojResolveAssemblyReference.cache
-D:\SSD\documents\Unity Projects\arora\Temp\UnityVS_obj\Debug\arora.Editor.csproj.CoreCompileInputs.cache

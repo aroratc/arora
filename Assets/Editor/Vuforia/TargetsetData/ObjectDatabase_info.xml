@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
   <TargetSet version="5.0" toolVersion="4.2.0">
-<<<<<<< HEAD
     <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2018-01-19 14:21:49" name="tree" targetId="932a093f6015484581e8dcdbd7709f78" version="2.0" />
-=======
->>>>>>> 5d889464025a2203164fd896790a380866f94d00
     <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2018-01-17 13:40:20" name="omni3" targetId="3b84d5b6bdc54d938b74e4ce8fd53bc1" version="2.0" />
     <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2018-01-17 13:36:35" name="gearbox" targetId="ff434602b85b4c52b2988b5cee155846" version="2.0" />
     <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2018-01-17 13:31:21" name="thing" targetId="abd1527ba67b4312a59b258d4b2b1a54" version="2.0" />

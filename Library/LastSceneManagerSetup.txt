@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Not Vuforia/Scenes/tutorial.unity
-=======
-- path: Assets/Not Vuforia/Scenes/objectMenu.unity
->>>>>>> 5d889464025a2203164fd896790a380866f94d00
+- path: Assets/Not Vuforia/Scenes/newDetectionScene.unity
   isLoaded: 1
   isActive: 1
