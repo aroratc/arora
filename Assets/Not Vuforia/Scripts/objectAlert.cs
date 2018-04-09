@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
@@ -12,11 +12,17 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
     public GameObject na;
     public GameObject drill;
     public GameObject omni;
-    public GameObject wheel;
-    public GameObject gear;
+    public GameObject instructions;
+
+
+
+    public GameObject omniObject;
+    public GameObject batteryObject;
 
     void Start()
     {
+
+        instructions.gameObject.SetActive(false);
         alertModel.gameObject.SetActive(false);
         searchModel.gameObject.SetActive(true);
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
@@ -38,23 +44,17 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
             alertModel.gameObject.SetActive(true);
             searchModel.gameObject.SetActive(false);
             na.gameObject.SetActive(false);
+            instructions.gameObject.SetActive(true);
             if (mTrackableBehaviour.TrackableName == "battery")
             {
                 drill.gameObject.SetActive(true);
+
+
             }
             else if (mTrackableBehaviour.TrackableName == "omni3")
             {
                 omni.gameObject.SetActive(true);
 
-            }
-            else if (mTrackableBehaviour.TrackableName == "Gear1" || mTrackableBehaviour.TrackableName == "Gear1Bottom")
-            {
-                gear.gameObject.SetActive(true);
-
-            }
-            else if (mTrackableBehaviour.TrackableName == "hexwheel1")
-            {
-                wheel.gameObject.SetActive(true);
 
             }
         }
@@ -66,8 +66,9 @@ public class objectAlert : MonoBehaviour, ITrackableEventHandler
             na.gameObject.SetActive(true);
             drill.gameObject.SetActive(false);
             omni.gameObject.SetActive(false);
-            gear.gameObject.SetActive(false);
-            wheel.gameObject.SetActive(false);
+            instructions.gameObject.SetActive(false);
+
+
         }
     }
 }

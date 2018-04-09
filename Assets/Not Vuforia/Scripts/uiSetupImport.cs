@@ -20,11 +20,7 @@ public class uiSetupImport : MonoBehaviour
         {
             omni.SetActive(true);
         }
-        else if (objName == "hexwheel1")
-        {
-            wheel.SetActive(true);
-        }
-        else if (objName == "gear")
+        else if (objName == "tree")
         {
             //gear.SetActive(true);
             // i couldnt find the gear model, so for now it doesnt do anything. 

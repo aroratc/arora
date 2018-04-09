@@ -5,15 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class newMaterialScript : MonoBehaviour {
 
-    public Material[] material;
+ 
     Renderer rend;
     private GameObject store; 
 
 	// Use this for initialization
 	void Start () {
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = material[0];
+ 
 	}
 	
 	// Update is called once per frame
@@ -27,7 +25,7 @@ public class newMaterialScript : MonoBehaviour {
    // }
     void OnTouchUp()
     {
-        rend.sharedMaterial = material[0];
+     
         store = GameObject.Find("scriptStore");
         store.GetComponent<dontDestroy>().setObj(this.transform.parent.name);
         SceneManager.LoadScene("objectMenu");
@@ -42,8 +40,8 @@ public class newMaterialScript : MonoBehaviour {
         rend.sharedMaterial = material[0];
     }
     */
-    void OnTouchMove()
+    void OnTouchHold()
     {
-        rend.sharedMaterial = material[1];
+  
     }
 }

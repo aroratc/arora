@@ -19,7 +19,7 @@ public class LoadScene : MonoBehaviour {
 
 	public void loadLevel () {
         Debug.Log("button pressed.");
-        SceneManager.LoadScene("testScene");
+        SceneManager.LoadScene("newDetectionScene");
 	}
     public void loadMenu()
     {
@@ -32,6 +32,11 @@ public class LoadScene : MonoBehaviour {
         menu1.SetActive(false);
         logo.SetActive(false);
         menu2.SetActive(true);
+    }
+
+    public void loadTutorial()
+    {
+        SceneManager.LoadScene("tutorial");
     }
 
     public void reset()

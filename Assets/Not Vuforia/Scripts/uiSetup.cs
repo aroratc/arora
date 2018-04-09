@@ -12,7 +12,14 @@ public class uiSetup : MonoBehaviour {
     public GameObject omni;
     public GameObject frame;
 
-    private bool check = false; 
+    public GameObject omniObj;
+    public GameObject frameObj;
+    public GameObject rollerObj;
+    public GameObject batteryObj;
+
+    private bool check = false;
+    private bool disableZoom = false;
+    private bool currentZoom = false; 
 
     private string objName = null;
     private GameObject empty;
@@ -21,10 +28,33 @@ public class uiSetup : MonoBehaviour {
         empty = GameObject.Find("scriptStore");
         objName = empty.GetComponent<dontDestroy>().getObj();
     }
-	
-	// Update is called once per frame
-	public void onExplodePress () {
-        if (objName == "omni3")
+
+    // Update is called once per frame
+    private void Update()
+    {
+        /*if (currentZoom == true || singleCheck == false)
+        {
+            setScale();
+            infopanel.SetActive(false);
+            singleCheck = true;
+        }
+        else
+        {
+            setDefault(); 
+        }*/
+
+        if (buttonpanel.activeSelf == true)
+        {
+            disableZoom = true;
+        }
+        else
+        {
+            disableZoom = false; 
+        }
+    }
+
+    public void onExplodePress () {
+        if (objName == "omni3" && currentZoom == false)
         {
             if (mode == 1 || mode == 2)
             {
@@ -46,10 +76,15 @@ public class uiSetup : MonoBehaviour {
                     findChildObject(infopanel, "omni").SetActive(false);
                     //infopanel.SetActive(false);
                     omni.SetActive(false);
+                    infopanel.SetActive(false);
+                    disableZoom = true;
                 }
                 else
                 {
-                omni.SetActive(true);
+                    findChildObject(infopanel, "omni").SetActive(true);
+                    infopanel.SetActive(true);
+                    omni.SetActive(true);
+                    disableZoom = false;
                 }
                 buttonpanel.SetActive(!buttonpanel.activeSelf);
             }
@@ -60,8 +95,8 @@ public class uiSetup : MonoBehaviour {
         //infopanel.SetActive(true);
         buttonpanel.SetActive(false);
         findChildObject(infopanel, "roller").SetActive(true);
-        roller.SetActive(true); 
-        
+        roller.SetActive(true);
+        disableZoom = false; 
     }
     public void onFramePress() {
         mode = 2;
@@ -69,21 +104,54 @@ public class uiSetup : MonoBehaviour {
         buttonpanel.SetActive(false);
         findChildObject(infopanel, "frame").SetActive(true);
         frame.SetActive(true);
+        disableZoom = false;
+    }
 
+    public void onZoomPress() {
+        if (disableZoom == false)
+        {
+            currentZoom = !currentZoom;
+            if (currentZoom == true)
+            {
+                setScale();
+                //infopanel.SetActive(false);
+            }
+            if (currentZoom == false)
+            {
+                setDefault();
+            }
+        }
+    }
+
+    private void setScale() {
+        omniObj.transform.localScale *= 2.5f;
+        batteryObj.transform.localScale *= 2.5f;
+        frameObj.transform.localScale *= 2.5f;
+        rollerObj.transform.localScale *= 2.5f;
+    }
+
+    private void setDefault() {
+        omniObj.transform.localScale /= 2.5f;
+        batteryObj.transform.localScale /= 2.5f;
+        frameObj.transform.localScale /= 2.5f;
+        rollerObj.transform.localScale /= 2.5f;
     }
 
     public void onDescPress() {
-        toggle(infopanel);
-        if (objName == "battery")
+        if (currentZoom == false || currentZoom == true)
         {
-            findChildObject(infopanel, "battery").SetActive(true); 
-        }
-        if (objName == "omni3")
-        {
-            if (check == false)
+            toggle(infopanel);
+            if (objName == "battery")
             {
-                findChildObject(infopanel, "omni").SetActive(true);
-                check = true;
+                findChildObject(infopanel, "battery").SetActive(true);
+            }
+            if (objName == "omni3")
+            {
+                if (check == false)
+                {
+                    findChildObject(infopanel, "omni").SetActive(true);
+                    check = true;
+                }
             }
         }
     }

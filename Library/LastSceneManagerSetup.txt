@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Not Vuforia/Scenes/objectMenu.unity
+- path: Assets/Not Vuforia/Scenes/newDetectionScene.unity
   isLoaded: 1
   isActive: 1
