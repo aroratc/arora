@@ -34,6 +34,7 @@ public class transparentScript : MonoBehaviour {
 	void Update () {
         if (step == 2)
         {
+            TouchThing.SetActive(false);
             Scene1.SetActive(false);
             Scene2.SetActive(true);
         }
@@ -54,7 +55,7 @@ public class transparentScript : MonoBehaviour {
             Part2.SetActive(true);
             Menus.SetActive(true);
             Scene5.SetActive(true);
-            TouchThing.SetActive(false);
+            //TouchThing.SetActive(false);
         }
         else if (step == 6)
         {
