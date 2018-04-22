@@ -17,7 +17,14 @@ public class LoadScene : MonoBehaviour {
         qstart = battery.transform.rotation;
     }
 
-	public void loadLevel () {
+    public void loadLevel() {
+        menu2.SetActive(true);
+        StartCoroutine(loadLevelRoutine());
+    }
+
+	IEnumerator loadLevelRoutine () {
+        Debug.Log("send help");
+        yield return new WaitForSeconds(0.1f);
         Debug.Log("button pressed.");
         SceneManager.LoadScene("newDetectionScene");
 	}
