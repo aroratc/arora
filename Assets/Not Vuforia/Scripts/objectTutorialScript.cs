@@ -33,7 +33,11 @@ public class objectTutorialScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Debug.Log(step);
-        if (step == 2)
+	if (step == 1)
+	{
+		Scene1.SetActive(true);
+	}
+        else if (step == 2)
         {
             Scene1.SetActive(false);
             Scene2.SetActive(true);

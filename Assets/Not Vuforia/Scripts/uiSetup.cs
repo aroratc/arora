@@ -1,4 +1,5 @@
-﻿using System.Collections;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -43,14 +44,27 @@ public class uiSetup : MonoBehaviour {
             setDefault(); 
         }*/
 
-        if (buttonpanel.activeSelf == true)
+        try
         {
-            disableZoom = true;
+            if (buttonpanel.activeSelf == true)
+            {
+                disableZoom = true;
+            }
+            else
+            {
+                disableZoom = false;
+            }
         }
-        else
+        catch(UnassignedReferenceException)
         {
-            disableZoom = false; 
+            Debug.Log("This variable is not assigned. Do something about that. ");
         }
+        finally
+        {
+            Debug.Log("This should work no matter what");
+        }
+        
+        
     }
 
     public void onExplodePress () {
